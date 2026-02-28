@@ -257,21 +257,41 @@ The `%` operator (modulo) is doing something clever here. When `current_frame` r
 
 You do not need to be an artist to make game sprites. Plenty of professional games use simple pixel art. Let's create some using **LibreSprite**, a free pixel art editor.
 
-### Installing LibreSprite
+### Installing a Pixel Art Editor
 
-LibreSprite is not in Debian's default package list, so we install it using Flatpak:
+There are a few options. Try them in order and use whichever one works on your computer.
+
+**Option 1: LibreSprite via Flatpak**
+
+LibreSprite is a dedicated pixel art editor. It is not in Debian's default package list, so we install it using Flatpak:
 
 ```
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.github.libresprite.LibreSprite
 ```
 
-If Flatpak is not set up on your computer, you can install it with `sudo apt install flatpak` first. Ask an adult for help if you get stuck.
-
-To open LibreSprite after installation, type:
+If the install succeeds, open it with:
 
 ```
 flatpak run com.github.libresprite.LibreSprite
 ```
+
+> If this does not work (for example on a Raspberry Pi, where some Flatpak apps are not available), use Option 2 instead.
+
+**Option 2: Piskel (browser-based, no install needed)**
+
+Open a web browser and go to `https://www.piskelapp.com`. Click "Create Sprite." Piskel is a free pixel art editor that runs entirely in your browser. It works on any computer, including Raspberry Pi. When you are done drawing, click **Export** and save as PNG.
+
+**Option 3: GIMP**
+
+GIMP is a powerful image editor available on every Linux system:
+
+```
+sudo apt install gimp
+```
+
+It is more complex than a pixel art editor, but it works. Set the pencil tool to size 1, zoom in, and draw pixel by pixel.
 
 ### Making Your First Sprite
 
