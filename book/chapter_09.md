@@ -379,7 +379,7 @@ WHITE = (255, 255, 255)
 GREEN = (0, 200, 0)
 DARK_GREEN = (0, 150, 0)
 RED = (200, 0, 0)
-GREY = (100, 100, 100)
+GRAY = (100, 100, 100)
 
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Snake")
@@ -525,7 +525,7 @@ while running:
     elif game_state == "game_over":
         game_over_text = big_font.render("GAME OVER", True, RED)
         score_text = font.render(f"Score: {score}", True, WHITE)
-        prompt = font.render("Press SPACE to play again", True, GREY)
+        prompt = font.render("Press SPACE to play again", True, GRAY)
         screen.blit(game_over_text,
                      (WINDOW_WIDTH // 2 - game_over_text.get_width() // 2,
                       WINDOW_HEIGHT // 3))
