@@ -277,11 +277,11 @@ flatpak run com.github.libresprite.LibreSprite
 
 Open LibreSprite. You will see a canvas and a toolbar.
 
-1. Go to **File > New** (or press `Ctrl+N`).
+1. Go to **File > New** in the menu bar.
 2. Set the width and height to **32 x 32** pixels. This is a common size for game sprites.
 3. Click OK.
 
-The canvas will look tiny. Use `Ctrl++` (Control and Plus) to zoom in until you can see individual pixels clearly.
+The canvas will look tiny. Use **View > Zoom In** (or scroll with `Ctrl` held down) to zoom in until you can see individual pixels clearly.
 
 Now draw a simple character. Here are some pixel art tips:
 
@@ -294,7 +294,7 @@ There is no wrong way to draw a game sprite. Professional game developers starte
 
 When you are happy with your sprite, save it:
 
-1. Go to **File > Export** (or press `Ctrl+Shift+E`).
+1. Go to **File > Export** in the menu bar.
 2. Choose PNG as the format.
 3. Save it in your project's `images` folder.
 

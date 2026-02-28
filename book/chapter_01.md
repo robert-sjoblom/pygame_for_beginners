@@ -39,6 +39,8 @@ dodobird@debian:~$
 
 The part before the `$` sign tells you your username and computer name. The `~` means you are in your **home folder**. The `$` is the **prompt** — it means the terminal is waiting for you to type a command.
 
+> **Swedish keyboard tip:** The `~` (tilde) character is important in the terminal — it is a shortcut for your home folder. On a Swedish keyboard, you type it by pressing `AltGr` and the key to the right of `Å` (the `¨` key), then pressing `Space`. If that does not work on your keyboard, you can always type `/home/dodobird` instead of `~`.
+
 Try typing this and pressing `Enter`:
 
 ```
@@ -125,6 +127,27 @@ code ~/pygame_projects
 
 VS Code will open with your project folder in the sidebar on the left. This is your workspace.
 
+## Programming on a Swedish Keyboard
+
+Programming uses a lot of special characters that are easy to find on American keyboards but need key combinations on a Swedish keyboard. Here is a reference you can come back to whenever you need it:
+
+```
+Character   How to type it (Swedish keyboard)
+---------   ---------------------------------
+[  ]        AltGr + 8  and  AltGr + 9
+{  }        AltGr + 7  and  AltGr + 0
+\           AltGr + +  (the plus key, next to backspace)
+|           AltGr + <  (the key to the left of Z)
+@           AltGr + 2
+#           AltGr + 3
+$           AltGr + 4
+~           AltGr + ¨  then Space
+```
+
+`AltGr` is the `Alt` key on the right side of your keyboard. You will use these characters constantly, so it is worth practicing them a few times right now. Open the terminal and try typing `[`, `]`, `{`, `}`, and `\`.
+
+> If any of these do not work, your keyboard layout might be slightly different. Ask an adult to check that your system keyboard layout is set to "Swedish" in the Debian settings.
+
 ## Creating Your First File
 
 In VS Code, look at the sidebar on the left. You should see the name of your folder. Hover over it and click the icon that looks like a file with a small `+` sign. Name the file `hello.py`.
@@ -145,7 +168,7 @@ print("Hello, World!")
 
 That's it. One line. Save the file with `Ctrl+S`.
 
-Now open the terminal inside VS Code by pressing `` Ctrl+` `` (that is the backtick key, usually above `Tab` on your keyboard). Make sure you are in the right folder:
+Now open the terminal inside VS Code. Go to the menu bar and click **View > Terminal**. A terminal panel will appear at the bottom of VS Code. Make sure you are in the right folder:
 
 ```
 cd ~/pygame_projects
@@ -217,7 +240,7 @@ You already used the VS Code terminal to run `hello.py`. Here is the pattern you
 
 1. Write or edit your code in the editor area of VS Code.
 2. Save with `Ctrl+S`.
-3. Click on the terminal panel at the bottom of VS Code.
+3. Click on the terminal panel at the bottom of VS Code. If it is not visible, open it from **View > Terminal** in the menu bar.
 4. Type `python3 filename.py` and press `Enter`.
 
 You can also use the up arrow key in the terminal to bring back the last command you typed. That saves time when you are running the same program over and over while working on it.
@@ -226,7 +249,7 @@ You can also use the up arrow key in the terminal to bring back the last command
 
 ## What You Learned
 
-- The **terminal** is where you type commands to your computer. You open it with `Ctrl+Alt+T`.
+- The **terminal** is where you type commands to your computer. You open it with `Ctrl+Alt+T` or from your applications menu.
 - **Python** is the programming language we use in this book. You run Python files with `python3 filename.py`.
 - **Pygame** is a library that gives us tools for making games.
 - **VS Code** is the text editor where we write our code.
