@@ -1,0 +1,37 @@
+remote_theme: just-the-docs/just-the-docs
+
+title: Making Games with Python and Pygame
+description: A book for beginners who want to learn programming by building real games.
+
+color_scheme: dark
+
+# Aux links (top right of page)
+aux_links:
+  "View on GitHub":
+    - "https://github.com/YOUR_USERNAME/pygame-programming-book"
+
+aux_links_new_tab: true
+
+# Footer
+footer_content: "Making Games with Python and Pygame &mdash; A free book for young programmers."
+
+# Enable heading anchors
+heading_anchors: true
+
+# Search
+search_enabled: true
+search.button: true
+
+# Code copy button
+enable_copy_code_button: true
+
+# Back to top button
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Exclude non-site files
+exclude:
+  - STYLE_GUIDE.md
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
